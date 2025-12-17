@@ -1,0 +1,40 @@
+# ===============================
+# Python virtual environments
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Environment variables & secrets
+# ===============================
+.env
+.env.*
+.streamlit/secrets.toml
+
+# ===============================
+# Python cache / compiled files
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# IDE / Editor files
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Streamlit cache
+# ===============================
+.streamlit/cache/
+.streamlit/*.log
