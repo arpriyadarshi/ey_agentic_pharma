@@ -61,7 +61,9 @@ graph LR
     class MA_Node,Planner,Synthesizer,Router orch;
     class CT_Agent,IQ_Agent,PL_Agent,EX_Agent,WI_Agent,IK_Agent agent;
     class CT_API,IQ_Mock,Pat_Search,EX_Mock,DDG,RAG data;
-``````mermaid
+```
+
+```mermaid
 flowchart TD
     %% --- SHAPES & STYLES ---
     classDef startend fill:#000,stroke:#fff,stroke-width:2px,color:#fff;
